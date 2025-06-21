@@ -18,14 +18,14 @@ Este projeto foi realizado para o trabalho final da disciplina de Arquitetura de
 
 ### Requisitos Funcionais
 
-RF001. O sistema deve permitir o cadastro de novos produtos.
-RF002. O sistema deve permitir a atualização de informações de produtos existentes.
-RF003. O sistema deve permitir a consulta de produtos disponíveis.
-RF004. O sistema deve permitir a realização de pedidos de compra.
-RF005. O sistema deve permitir consultar informações de pedidos.
-RF006. O sistema deve permitir cadastrar e gerenciar clientes novos.
-RF006. Os microsserviços devem se comunicar via API REST.
-RF007. Os dados devem ser armazenados em um banco de dados relacional SQLite, sendo um banco exclusivo para cada microsserviço.
+-RF001. O sistema deve permitir o cadastro de novos produtos.
+-RF002. O sistema deve permitir a atualização de informações de produtos existentes.
+-RF003. O sistema deve permitir a consulta de produtos disponíveis.
+-RF004. O sistema deve permitir a realização de pedidos de compra.
+-RF005. O sistema deve permitir consultar informações de pedidos.
+-RF006. O sistema deve permitir cadastrar e gerenciar clientes novos.
+-RF006. Os microsserviços devem se comunicar via API REST.
+-RF007. Os dados devem ser armazenados em um banco de dados relacional SQLite, sendo um banco exclusivo para cada microsserviço.
 
 ---
 
@@ -67,9 +67,9 @@ RF007. Os dados devem ser armazenados em um banco de dados relacional SQLite, se
 
 - Clone os três repositórios correspondentes aos três microsserviços necessários para a aplicação:
 
-ProdutoService: https://github.com/wguii/ProdutoService.git (rodando na porta :5001)
-ClienteService: https://github.com/wguii/ClienteService.git (rodando na porta :5002)
-PedidoService: https://github.com/wguii/PedidoService.git (rodando na porta :5003)
+- **ProdutoService: https://github.com/wguii/ProdutoService.git (rodando na porta :5001)**
+- **ClienteService: https://github.com/wguii/ClienteService.git (rodando na porta :5002)**
+- **PedidoService: https://github.com/wguii/PedidoService.git (rodando na porta :5003)**
 
 -Restaure as dependências com "dot net restore"
 
