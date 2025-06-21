@@ -67,9 +67,9 @@ RF007. Os dados devem ser armazenados em um banco de dados relacional SQLite, se
 
 - Clone os três repositórios correspondentes aos três microsserviços necessários para a aplicação:
 
-. ProdutoService: https://github.com/wguii/ProdutoService.git (rodando na porta :5001)
-. ClienteService: https://github.com/wguii/ClienteService.git (rodando na porta :5002)
-. PedidoService: https://github.com/wguii/PedidoService.git (rodando na porta :5003)
+ProdutoService: https://github.com/wguii/ProdutoService.git (rodando na porta :5001)
+ClienteService: https://github.com/wguii/ClienteService.git (rodando na porta :5002)
+PedidoService: https://github.com/wguii/PedidoService.git (rodando na porta :5003)
 
 -Restaure as dependências com "dot net restore"
 
