@@ -2,7 +2,7 @@
 
 ### Propósito do Sistema
 
-Este sistema tem como objetivo manejar o sistema de vendas de uma loja de eletrônicos fictícia, auxiliando no controle de estoque e registro de pedidos e clientes. 
+Este sistema tem como objetivo manejar o sistema de vendas de uma loja de periféricos eletrônicos fictícia, auxiliando no controle de estoque e registro de pedidos e clientes. 
 
 A aplicação foi desenvolvida utilizando a arquitetura de microsserviços para proporcionar maior escalabilidade, modularidade e facilidade de manutenção e usando as tecnologias .NET.
 
@@ -41,7 +41,7 @@ Este projeto foi realizado para o trabalho final da disciplina de Arquitetura de
   - Valida nos outros microsserviços a existência do cliente e do produto especificado no pedido.
   - Verifica se a quantidade especificada no pedido é menor do que o estoque disponível.
 
-- **[ClienteService]** (se houver)
+- **ClienteService**
   - Responsável pelo cadastro e gerenciamento dos clientes da loja.
 
 
